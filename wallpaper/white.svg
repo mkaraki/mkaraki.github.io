@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i');
+        </style>
+    </defs>
+
+    <rect x="0" y="0" width="1920" height="1080" fill="white" />
+
+    <text x="714" y="493" font-family="Roboto Mono" font-style="italic" font-size="70" fill="black">
+        mkaraki apps
+    </text>
+    <text x="828" y="600" font-family="Roboto Mono" font-size="40" fill="gray">
+        mkaraki.app
+    </text>
+
+    <ellipse cx="960" cy="540" rx="360" ry="360" fill="none" stroke="cyan" stroke-width="1" />
+    <ellipse cx="960" cy="540" rx="350" ry="370" fill="none" stroke="magenta" stroke-width="1"/>
+    <ellipse cx="960" cy="540" rx="370" ry="345" fill="none" stroke="yellow" stroke-width="1"/>
+    <line x1="714" y1="540" x2="1200" y2="540" stroke="lightgray" stroke-width="1" stroke-opacity="0.6"/>
+</svg>
