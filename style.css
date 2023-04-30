@@ -1,0 +1,15 @@
+.even-bg .row:nth-child(2n) {
+    background-color: #EEE;
+}
+
+.project-list>div.row {
+    padding: 30px 0px;
+}
+
+h2>span.badge {
+    font-size: 9pt;
+}
+
+.action-menu {
+    margin-top: 15px;
+}

@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="mkaraki's profile information page">
-    <title>mkaraki</title>
+    <meta name="description" content="mkaraki's all projects">
+    <title>Projects - mkarakiapps</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha3/css/bootstrap.min.css"
         integrity="sha512-iGjGmwIm1UHNaSuwiNFfB3+HpzT/YLJMiYPKzlQEVpT6FWi5rfpbyrBuTPseScOCWBkRtsrRIbrTzJpQ02IaLA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145365019-1"></script>
@@ -27,8 +28,6 @@
             y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "8ruafub4am");
     </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7860713879668057"
-        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -56,21 +55,40 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container mt-3 pb-3 border-bottom">
         <div class="row">
-            <div class="col-12 col-sm-4">
-                <div class="text-center p-4">
-                    <img class="rounded" src="https://github.com/mkaraki.png" alt="GitHub User Icon"
-                        width="150px"><br />
-                    <b>mkaraki</b>
+            <div class="col">
+                <h1>Projects</h1>
+                Our OSS/proprietary projects.
+            </div>
+        </div>
+    </div>
+
+    <div class="container even-bg project-list">
+        <div class="row">
+            <div class="col-12">
+                <h2>GPS Speedometer <span class="badge text-bg-primary">Web App</span></h2>
+                Save speed history and locate geolocation name (Japan only).
+
+                <div class="action-menu">
+                    <a class="btn btn-primary btn-sm" href="https://www1.102090.xyz/gps-speedometer/" role="button"
+                        target="_blank" rel="noreferrer noopener">Application</a>
+                    <a class="btn btn-primary btn-sm" href="https://github.com/mkaraki/gps-speedometer" role="button"
+                        target="_blank" rel="noreferrer noopener">GitHub</a>
                 </div>
             </div>
-            <div class="col-12 p-4 col-sm-8">
-                <ul>
-                    <li>Programmer</li>
-                    <li>Network Engineer</li>
-                    <li>Server Administrator</li>
-                </ul>
+        </div>
+        <div class=" row">
+            <div class="col-12">
+                <h2>Clipboard QR Reader <span class="badge text-bg-primary">Web App</span></h2>
+                Can decode QR code from clipboard image.
+
+                <div class="action-menu">
+                    <a class="btn btn-primary btn-sm" href="http://mkaraki.github.io/clipboard-qr-reader" role="button"
+                        target="_blank" rel="noreferrer noopener">Application</a>
+                    <a class="btn btn-primary btn-sm" href="https://github.com/mkaraki/clipboard-reader" role="button"
+                        target="_blank" rel="noreferrer noopener">GitHub</a>
+                </div>
             </div>
         </div>
     </div>
